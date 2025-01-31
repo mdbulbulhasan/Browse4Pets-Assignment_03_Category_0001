@@ -36,7 +36,7 @@
   <body>
     <header class="bg-[#FFF9F4]">
       <!-- Navbar Section Start -->
-      <nav class="container mx-auto lg:px-10 py-2 border-2 border-red-800">
+      <nav class="max-w-screen-2xl mx-auto lg:px-10 py-2">
         <div class="navbar flex justify-between">
           <div class="cursor-pointer space-x-3">
             <img src="./images/logo-header.png" alt="" />
@@ -52,7 +52,7 @@
               <li><a>Contact us</a></li>
             </ul>
           </div>
-          <div class="fixed right-2 z-50 lg:hidden">
+          <div class="static right-2 z-50 lg:hidden">
             <!-- Drawer Content -->
             <div class="drawer drawer-end">
               <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
@@ -94,29 +94,525 @@
     </header>
     <main>
       <!-- Hero Section Start-->
-      <section class="border-2 border-red-800 relative ">
-        <div class="container mx-auto lg:px-10 py-2 border-2 border-red-800">
-          <!-- Image Section -->
-          <div class="lg:static absolute top-56">
-            <img src="./images/cat-big.png" class="w-full bg-white" />
-          </div>
-          <!-- Text Section -->
-          <div class="absolute top-14 lg:px-0 px-2">
-            <h1 class="lg:text-6xl text-2xl font-semibold adlam-display text-[#111111]">
-              Pamper Your Pet, <br />
-              Because They Deserve <br />
-              the Bes
-            </h1>
-            <p class="py-6 sora lg:w-full w-3/4 lg:text-xl text-sm font-normal text-[#111111]">
-              Discover a world of treats, toys, and essentials handpicked for
-              <br />
-              your furry friends. Shop now and make tails wag with joy!
-            </p>
-            <button class="btn bg-[#FFDC26] text-[#111111] lg:text-xl font-medium px-8">Find a pet</button>
+      <section>
+        <div class="max-w-screen-2xl mx-auto lg:px-10 py-2">
+          <div class="relative">
+            <!-- Image Section -->
+            <div class="lg:static absolute top-48">
+              <img src="./images/cat-big.png" class="w-full bg-white" />
+            </div>
+            <!-- Text Section -->
+            <div class="absolute lg:top-14 top-6 lg:px-0 px-2">
+              <h1
+                class="lg:text-6xl text-2xl font-semibold adlam-display text-[#111111]"
+              >
+                Pamper Your Pet, <br />
+                Because They Deserve <br />
+                the Bes
+              </h1>
+              <p
+                class="py-6 sora lg:w-full w-3/4 lg:text-xl text-sm font-normal text-gray-700"
+              >
+                Discover a world of treats, toys, and essentials handpicked for
+                <br />
+                your furry friends. Shop now and make tails wag with joy!
+              </p>
+              <button
+                class="btn bg-[#FFDC26] text-[#111111] lg:text-xl font-medium px-8"
+              >
+                Find a pet
+              </button>
+            </div>
           </div>
         </div>
       </section>
       <!-- Banner Section End-->
+
+      <!-- Catagories Section Start -->
+      <section>
+        <div
+          class="max-w-screen-2xl mx-auto lg:px-10 py-16 pt-20 lg:mt-0 mt-96 px-4"
+        >
+          <h1
+            class="adlam-display lg:text-4xl text-3xl font-semibold text-left"
+          >
+            Browse By Categories
+          </h1>
+          <!-- Card -->
+          <div class="grid lg:grid-cols-6 gap-5 grid-cols-2 py-6">
+            <!-- Card 1 -->
+            <div class="card w-full shadow-xl bg-[#F9DF8A]">
+              <figure class="pt-10">
+                <!-- Avater -->
+                <div class="avatar">
+                  <div class="w-full rounded-full">
+                    <img
+                      src="./images/dog-cartoon.png"
+                      class="bg-[#FFFFFF] p-3"
+                    />
+                  </div>
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2
+                  class="card-title adlam-display text-xl font-semibold text-[#000000]"
+                >
+                  Dog
+                </h2>
+                <p class="sora text-lg font-normal text-[#000000]">3 items</p>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card w-full shadow-xl bg-[#F9DF8A]">
+              <figure class="pt-10">
+                <!-- Avater -->
+                <div class="avatar">
+                  <div class="w-full rounded-full">
+                    <img
+                      src="./images/fish-cartoon.png"
+                      class="bg-[#FFFFFF] p-3"
+                    />
+                  </div>
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2
+                  class="card-title adlam-display text-xl font-semibold text-[#000000]"
+                >
+                  Fish
+                </h2>
+                <p class="sora text-lg font-normal text-[#000000]">3 items</p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card w-full shadow-xl bg-[#F9DF8A]">
+              <figure class="pt-10">
+                <!-- Avater -->
+                <div class="avatar">
+                  <div class="w-full rounded-full">
+                    <img
+                      src="./images/cat-cartoon.png"
+                      class="bg-[#FFFFFF] p-3"
+                    />
+                  </div>
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2
+                  class="card-title adlam-display text-xl font-semibold text-[#000000]"
+                >
+                  Cat
+                </h2>
+                <p class="sora text-lg font-normal text-[#000000]">3 items</p>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card w-full shadow-xl bg-[#F9DF8A]">
+              <figure class="pt-10">
+                <!-- Avater -->
+                <div class="avatar">
+                  <div class="w-full rounded-full">
+                    <img
+                      src="./images/bird-cartoon.png"
+                      class="bg-[#FFFFFF] p-3"
+                    />
+                  </div>
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2
+                  class="card-title adlam-display text-xl font-semibold text-[#000000]"
+                >
+                  Birds
+                </h2>
+                <p class="sora text-lg font-normal text-[#000000]">3 items</p>
+              </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="card w-full shadow-xl bg-[#F9DF8A]">
+              <figure class="pt-10">
+                <!-- Avater -->
+                <div class="avatar">
+                  <div class="w-full rounded-full">
+                    <img
+                      src="./images/mouse-cartoon.png"
+                      class="bg-[#FFFFFF] p-3"
+                    />
+                  </div>
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2
+                  class="card-title adlam-display text-xl font-semibold text-[#000000]"
+                >
+                  Small Pet
+                </h2>
+                <p class="sora text-lg font-normal text-[#000000]">3 items</p>
+              </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="card w-full shadow-xl bg-[#F9DF8A]">
+              <figure class="pt-10">
+                <!-- Avater -->
+                <div class="avatar">
+                  <div class="w-full rounded-full">
+                    <img
+                      src="./images/rabbit-cartoon.png"
+                      class="bg-[#FFFFFF] p-3"
+                    />
+                  </div>
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2
+                  class="card-title adlam-display text-xl font-semibold text-[#000000]"
+                >
+                  Rabbit
+                </h2>
+                <p class="sora text-lg font-normal text-[#000000]">3 items</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Catagories Section End -->
+
+      <!-- Trending Pet Section Start -->
+      <section class="bg-[#FFF9F4]">
+        <div class="max-w-screen-2xl mx-auto space-y-5 lg:px-10 px-5 py-8">
+          <h1 class="adlam-display lg:text-4xl text-3xl text-[#111111] font-semibold">
+            Trending Pet Products
+          </h1>
+          <!-- Card Section -->
+          <div class="flex lg:flex-row flex-col gap-5">
+            <!-- Card 1 -->
+            <div class="bg-[#F9DF8A] relative py-14 px-5 rounded-xl shadow-2xl lg:w-1/4">
+              <!-- Text Section -->
+              <div class="absolute space-y-4">
+                <h1 class="adlam-display lg:text-3xl text-2xl text-[#111111] font-normal">
+                  T-Shirt For Dogs
+                </h1>
+                <p class="sora text-sm lg:w-4/5 w-full font-medium">
+                  Discover a world of treats, toys, and essentials handpicked
+                  for
+                </p>
+                <button class="btn px-5 sora text-xl font-medium">
+                  Shop Now
+                </button>
+              </div>
+              <!-- Image Section -->
+              <div class="pl-32 pt-10">
+                <img src="./images/cute-pet-small.png" alt="" />
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="grid lg:grid-cols-3 grid-cols-2 lg:gap-5 gap-10 lg:w-3/4">
+              <!-- Card 2 -->
+              <div
+                class="flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img
+                        src="./images/dog-cartoon.png"
+                        class="bg-[#FFF9F4]"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div
+                class="flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img
+                        src="./images/fish-cartoon.png"
+                        class="bg-[#FFF9F4]"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div
+                class="flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img
+                        src="./images/bird-cartoon.png"
+                        class="bg-[#FFF9F4]"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+              <!-- Card 5 -->
+              <div
+                class="flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img
+                        src="./images/rabbit-cartoon.png"
+                        class="bg-[#FFF9F4]"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+              <!-- Card 6 -->
+              <div
+                class="flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img
+                        src="./images/bird-cartoon.png"
+                        class="bg-[#FFF9F4]"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+              <!-- Card 7 -->
+              <div
+                class="flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img src="./images/pet-couch.png" class="bg-[#FFF9F4]" />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+              <!-- Card 8 -->
+              <div
+                class="flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img
+                        src="./images/fish-cartoon.png"
+                        class="bg-[#FFF9F4]"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+              <!-- Card 9 -->
+              <div
+                class="flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img src="./images/pet-couch.png" class="bg-[#FFF9F4]" />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+              <!-- Card 10 -->
+              <div
+                class="lg:flex items-center justify-center gap-4 bg-[#FFFFFF] rounded-xl shadow-2xl hidden"
+              >
+                <!-- Avatar -->
+                <div>
+                  <div class="avatar">
+                    <div
+                      class="ring-primary ring-offset-base-100 w-24 rounded-full"
+                    >
+                      <img
+                        src="./images/rabbit-cartoon.png"
+                        class="bg-[#FFF9F4]"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Rating -->
+                <div>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <p class="sora text-lg font-normal text-[#111111]">4.5</p>
+                  </div>
+                  <!-- Text Section -->
+                  <h3 class="sora lg:text-xl font-medium text-[#111111]">
+                    Pet Bed
+                  </h3>
+                  <p class="sora text-lg font-normal text-[#111111]">$39.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Trending Pet Section End -->
     </main>
     <footer></footer>
   </body>
